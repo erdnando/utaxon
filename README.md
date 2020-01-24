@@ -28,4 +28,5 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+### Who am I
 Erdnando Rodriguez Vargas
