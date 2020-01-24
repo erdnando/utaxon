@@ -2,7 +2,7 @@
 
 
 
-<div :style="{ backgroundImage: 'url(' + require('@/assets/fondo.png') + ')' }"   >
+<div :style="{ backgroundImage: 'url(' + require('@/assets/fondoutaxon.png') + ')' }"   >
 <v-container fluid >
 
 <v-row justify="center">

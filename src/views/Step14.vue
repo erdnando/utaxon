@@ -6,14 +6,14 @@
       <template v-slot:label>
         <div>Su <strong>respuesta</strong></div>
       </template>
-      <v-radio value="Google">
+      <v-radio value="Google" color="white">
         <template v-slot:label>
-          <div>Si tengo certificados del SAT <strong class="success--text">para emitir facturas</strong></div>
+          <div>Si tengo certificados del SAT <strong class="orange--text">para emitir facturas</strong></div>
         </template>
       </v-radio>
-      <v-radio value="Duckduckgo">
+      <v-radio value="Duckduckgo" color="white" >
         <template v-slot:label>
-          <div>No tengo,  <strong class="primary--text">no puedo facturar</strong></div>
+          <div>No tengo,  <strong class="yellow--text">no puedo facturar</strong></div>
         </template>
       </v-radio>
     </v-radio-group>

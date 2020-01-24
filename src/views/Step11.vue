@@ -6,14 +6,14 @@
       <template v-slot:label>
         <div>Su <strong>respuesta</strong></div>
       </template>
-      <v-radio value="Google">
+      <v-radio value="Google" color="white">
         <template v-slot:label>
-          <div>Si me se la <strong class="success--text">contraseña</strong></div>
+          <div>Si me se la <strong class="orange--text">contraseña</strong></div>
         </template>
       </v-radio>
-      <v-radio value="Duckduckgo">
+      <v-radio value="Duckduckgo" color="white">
         <template v-slot:label>
-          <div>No,  <strong class="primary--text">ni idea</strong></div>
+          <div>No,  <strong class="yellow--text">ni idea</strong></div>
         </template>
       </v-radio>
     </v-radio-group>

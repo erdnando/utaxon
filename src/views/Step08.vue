@@ -29,6 +29,7 @@
 <script>
   export default {
     data: () => ({
+      comentario:'',
       dropdown_edit: [
         { text: '1', callback: () => console.log('delete') },
         { text: '2', callback: () => console.log('delete') },
